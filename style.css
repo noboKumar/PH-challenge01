@@ -139,9 +139,43 @@ header {
     rgba(255, 255, 255, 0) 100%
   );
 }
-iframe{
+iframe {
   width: 1070px;
   height: 550px;
-  border-radius: 8px;
+  border-radius: 16px;
+  padding: 30px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
 }
-
+.yt-link-section {
+  text-align: center;
+}
+.yt-link-section h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--head-color);
+}
+.yt-link-section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--para-color);
+  margin: 24px 140px 48px 550px;
+  width: 852px;
+  height: 52px;
+}
+.current-target {
+  text-align: center;
+  margin-top: 150px;
+}
+.current-target h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--head-color);
+}
+.current-target p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--para-color);
+  width: 850px;
+  height: 50px;
+  margin: 24px 500px;
+}
