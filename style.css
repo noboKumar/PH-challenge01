@@ -95,11 +95,18 @@ header {
   font-size: 24px;
   font-weight: 700;
   color: var(--head-color);
+  width: 477px;
+  height: 72px;
+  line-height: 36px;
 }
 .section1-box-container p {
   font-size: 16px;
   font-weight: 400;
   color: var(--para-color);
+  margin: 16px 0 30px 0;
+  width: 468px;
+  height: 52px;
+  line-height: 26px;
 }
 .btn-learn-more {
   border: 1px solid rgb(13, 19, 33);
@@ -111,8 +118,30 @@ header {
   padding: 12px 20px 12px 20px;
   cursor: pointer;
 }
-.section-container{
+.section-container {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
+}
+.section1-box-container {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 45px;
+  padding: 45px;
+}
+.second-box {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+iframe{
+  width: 1070px;
+  height: 550px;
+  border-radius: 8px;
 }
 
