@@ -163,15 +163,17 @@ iframe {
   height: 52px;
 }
 .current-target {
-  text-align: center;
   margin-top: 150px;
 }
-.current-target h1 {
+.current-target-content {
+  text-align: center;
+}
+.current-target-content h1 {
   font-size: 32px;
   font-weight: 800;
   color: var(--head-color);
 }
-.current-target p {
+.current-target-content p {
   font-size: 16px;
   font-weight: 400;
   color: var(--para-color);
@@ -179,3 +181,43 @@ iframe {
   height: 50px;
   margin: 24px 500px;
 }
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.skill-box {
+  padding: 40px;
+  border-radius: 16px;
+  width: 360px;
+  height: 200px;
+}
+.skill-box h3 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 24px 0 8px 0;
+}
+.skill-box p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.skill-box a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+.html-box {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.css-box {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.js-box {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
