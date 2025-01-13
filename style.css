@@ -74,6 +74,8 @@ header {
 .main-section-1 {
   margin: 120px 150px 90px 145px;
   padding: 80px 90px;
+  margin: auto;
+  width: 1140px;
 }
 .main-section-head {
   margin-bottom: 25px;
@@ -154,6 +156,9 @@ iframe {
   font-weight: 800;
   color: var(--head-color);
 }
+.youtube-video{
+  width: 1140px;
+}
 .yt-link-section p {
   font-size: 16px;
   font-weight: 400;
@@ -186,6 +191,8 @@ iframe {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  margin: auto;
+  width: 1140px;
 }
 .skill-box {
   padding: 40px;
@@ -253,8 +260,8 @@ iframe {
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
+  margin: auto;
   width: 1140px;
-  height: 219px;
 }
 .next-target-skill-container {
   display: flex;
@@ -293,7 +300,7 @@ iframe {
   border-radius: 16px;
   padding: 64px 48px 64px 48px;
   margin: auto;
-  width: 1140px;
+  width: 1080px;
   margin-top: 50px;
 }
 .support h1 {
