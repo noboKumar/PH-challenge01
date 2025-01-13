@@ -72,9 +72,8 @@ header {
   text-align: center;
 }
 .main-section-1 {
-  margin: 120px 150px 90px 145px;
+  margin: 120px auto 90px auto;
   padding: 80px 90px;
-  margin: auto;
   width: 1140px;
 }
 .main-section-head {
