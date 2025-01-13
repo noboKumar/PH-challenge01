@@ -26,6 +26,13 @@ nav-head {
   color: var(--head-color);
   cursor: pointer;
 }
+.btn-primary:hover{
+  background-color: rgb(212, 212, 212);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+}
+.btn-primary:active{
+  background-color: rgba(212, 212, 212, 0.558);
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -67,6 +74,14 @@ header {
   padding: 17px 24px;
   color: rgb(255, 255, 255);
   cursor: pointer;
+  border: none;
+}
+.btn-secondary:hover{
+  background-color: rgba(13, 19, 33, 0.774)
+}
+.btn-secondary:active{
+  background-color: rgb(13, 19, 33)
+
 }
 .main-section-content {
   text-align: center;
@@ -145,6 +160,7 @@ iframe {
   height: 550px;
   border-radius: 16px;
   padding: 30px;
+  width: 1140px;
   border: 1px solid rgba(13, 19, 33, 0.2);
 }
 .yt-link-section {
@@ -154,9 +170,6 @@ iframe {
   font-size: 32px;
   font-weight: 800;
   color: var(--head-color);
-}
-.youtube-video {
-  width: 1140px;
 }
 .yt-link-section p {
   font-size: 16px;
@@ -337,7 +350,7 @@ iframe {
   border: none;
   cursor: pointer;
 }
-footer{
+footer {
   background: rgba(13, 19, 33, 0.03);
 }
 .footer-content {
@@ -349,4 +362,3 @@ footer{
   margin: auto;
   width: 1140px;
 }
-
